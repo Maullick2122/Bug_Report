@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Bug_Report.CSS">
+
+  <title>Big Little Problems testing report</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Big Little Problems testing report</h1>
+   
+   <p class="goal">
+      Primary goal 
+    </p> 
+     
+      <p class="goal">
+      Testing the difficulty, aesthetic appeal and primary mechanics of the first level within the game Big Little Problems.
+    </p>
+   
+    <form
+  action="https://formspree.io/f/xkgbrnko"
+  method="POST"
+      
+      <label for="gameName"> Name of Game
+      </label>
+      
+      <input type="text" id="gameName" name="gameName" placeholder="Big Little Problems, A few of them">
+      <label for="bugName">Name of Bug
+      </label>
+
+     
+      <input type="text" id="bugName" name="bugName" placeholder="Enter bug name (Crash on interact, Infinte jumping)">
+      <label for="description">Description of Bug
+      </label>
+      <textarea id="description" name="description" placeholder="Enter Description">
+      </textarea>
+
+      <label for="reoccurrence">Reoccurrence of Bug
+      </label>
+
+      <select id="reoccurrence" name="reoccurrence">
+
+        <option value="">Select frequency
+        </option>
+
+        <option value="always">Always
+        </option>
+
+        <option value="often">Often
+        </option>
+
+        <option value="sometimes">Sometimes
+        </option>
+
+        <option value="rarely">Rarely
+        </option>
+        
+        <option value="once">Only Once
+        </option>
+
+      </select>
+
+      <label for="gameLevel">Game Level Found</label>
+      <input type="text" id="gameLevel" name="gameLevel" placeholder="Level or area where bug was found">
+
+      <label for="datetime">Time and Date Recorded</label>
+      <input type="datetime-local" id="datetime" name="datetime">
+
+      <label for="misc">Miscellaneous Descriptors</label>
+      <textarea id="misc" name="misc" placeholder="Any additional notes or descriptors about the"></textarea>
+
+      <label for="images">Upload Images</label>
+      <input type="file" id="images" name="images" accept="image/*" multiple>
+
+      <label for="videos">Upload Videos</label>
+      <input type="file" id="videos" name="videos" accept="video/*" multiple>
+ 
+      <label for="xtra comments"> Additional comments
+      </label>
+      <textarea for="Additional Comments" id="xtra comments" name="xtra comments" placeholder="Any additional concerns or appealing factors">
+      </textarea>
+
+      <button type="submit"> Submit Bug Report
+      </button>
+
+    </form>
+  </div>
+
+
+</body>
+
+</html>
